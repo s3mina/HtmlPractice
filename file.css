@@ -1,11 +1,10 @@
 .background-image{
-	background-image: url("Pictures/a.png");
-	height: 800px;
-	width: 1500px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+	background-image: url(Pictures/a.png);
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .background-imageform{
@@ -20,9 +19,8 @@
 
 .container1{
 	position: absolute;
-	/*margin: 20px;*/
-	text-align: center;
-	width: auto;
+    width: 250px;
+    right: 0;
 }
 
 .topnav{
@@ -55,38 +53,10 @@
 	display: none;
 }
 
-.topnav{
-	/*float: right;*/
-	position: relative;
-	right: 0;
-}
-
 h1{
-	margin: 10px;
 	padding-top: 170px;
 }
 
 h3{
 	margin: 10px;
 }
-
-
-/*.container2{
-	position: relative;
-	color: black;
-	margin: 20px;
-	text-align: center;
-	
-
-}
-
-
-.text-center{
-	position: absolute;
-	top: 50%
-	left:50%;
-	padding-left: 20px;
-	padding-right: 20px;*/
-
-
-/*}*/
