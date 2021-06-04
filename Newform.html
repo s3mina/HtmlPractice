@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+	<h2 style="margin-top: 80px; text-align: center;">Send Feedback</h2> <br>
+	<div class="background-imageform">
+		<center>
+
+			<form class="Forms" name="Feedback-Form" action="main.html" onsubmit="return validateForm()" method="post">
+		
+
+			<br>
+
+			<div class="forms">
+				<input type="text" placeholder="Your Name" name="name" >
+			
+			<!--Div Form Name ends-->
+
+			<br> <br>
+
+				<input type="Email" placeholder="Email" name="Email">
+			
+			<!--Div Form Email ends-->
+
+			<br> <br>
+
+			<br>
+				<textarea name="Feedback" rows="8" cols="40" placeholder="Your Message" name="Message"></textarea>
+				<!-- <input type="Feedback" name="" value=""> -->
+			<br>
+				<br>
+			</div>
+			<!--Div Form Feedback ends-->
+
+			<div class="button">
+				<input type="submit" value="Send Message" onclick="validateForm()">
+			</div>
+				
+			<br>
+			
+			</form>
+		</center>
+		
+
+		
+	</div>
+	
+</body>
+</html>
+
+<script>
+	function validateForm() {
+		var name = document.forms["Feedback-Form"]["name"].value;
+		var email = document.forms["Feedback-Form"]["Email"].value;
+		var feedback = document.forms["Feedback-Form"]["Message"].value;
+		if (name == "" || email =="" || feedback =="") {
+            alert("All the fields must be filled out");
+        }
+        else {
+            alert("Thank you for giving me feedback")
+        }
+
+	}
+</script>

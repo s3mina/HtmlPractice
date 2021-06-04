@@ -1,0 +1,42 @@
+/*.Forms{
+	width: 10%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+}*/
+
+/*.forms{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #4caf50;
+}*/
+
+.Forms{
+	width: 50%;
+	height: 50%;
+	background-color: #F7E9AD;
+	border: 2px solid #0F0F0E;
+	margin-top: 20px;
+}
+
+.forms input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 15px;
+	width: 50%;
+	border-bottom: 1px solid #0F0F0E;
+}
+
+
+
+
+body{
+	background-color: #F6EDC8;
+}
+
+
